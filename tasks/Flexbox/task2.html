@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html {
+  margin: 0;
+  padding:0;
+  height: 100%;
+}
+#container1 {
+  display: flex;
+  flex-flow: row-reverse;
+  background: mediumpurple;
+  height: 150px;
+}
+#container2 {
+  display: flex;
+  background: mediumpurple;
+  height: 150px;
+}
+#red{
+  display: flex;
+  background: red;
+  flex: 1;
+}
+#lightblue{
+  display: flex;
+  background: lightblue;
+  flex: 1;
+}
+#brown{
+  display: flex;
+  background: brown;
+  flex: 1;
+}
+
+</style>
+</head>
+<body>
+<div id="container1">
+<p>This div contains the smaller ones</p>
+<div id="brown">
+<p></p>
+</div>
+<div id="lightblue">
+<p></p>
+</div>
+<div id="red">
+<p></p>
+</div>
+</div>
+<div id="container2">
+<p>This div contains the smaller ones</p>
+<div id="red">
+<p></p>
+</div>
+<div id="lightblue">
+<p></p>
+</div>
+<div id="brown">
+<p></p>
+</div>
+</div>
+</body>
+</html>
